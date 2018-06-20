@@ -7,7 +7,7 @@ and b.sex='男'
 and a.record_day>='20171001'
 and a.record_day<='20171007'
 group by a.msisdn) x
-where x.>100;
+where x.pv_count>100;
 
 ----1(2)
 --建日期表
